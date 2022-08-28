@@ -37,22 +37,8 @@ class GenerateRandomHandsCommand
 
 			$results = $game->calculateScoring();
 
-			// $i = 1;
-
-			foreach ($results as $result) {
-
-				// if ($i === 1) {
-				// 	echo "#" . $i . ' (Winner):';
-				// } else {
-				// 	echo "#" . $i . ':';
-				// }
-
-			//	echo $result->getScoreCard();
-			//	echo PHP_EOL;
-
-				// $i++;
-			}
 		}
+		
 		return $i;
 	}
 }
