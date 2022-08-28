@@ -1,0 +1,21 @@
+{
+    "name": "alex/poker-app",
+    "type": "project",
+    "require":
+    {
+        "php": ">=8.0",
+        "fzaninotto/faker": "^1.5"
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "App\\": "app/"
+        }
+    },
+    "require-dev":
+    {
+        "psy/psysh": "@stable",
+        "phpunit/phpunit": "^9.5"
+    }
+}
